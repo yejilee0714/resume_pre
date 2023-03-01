@@ -3,3 +3,61 @@
 * {
     font-family: 'Montserrat';
 }
+
+body, h1, h2{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: fit-content;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.name-text{
+    font-size: 16px;
+    font-weight: bold;
+    color: #7c7c7c;
+}
+
+.title-box{
+    text-align: right;
+}
+
+.main-box{
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 610px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgb(0,0,0,0.1);
+}
+
+h2{
+    font-size: 20px;
+    color: #282828;
+    font-weight: lighter;
+}
+
+.about-me-text{
+    border-top: 1px solid #ebebeb;
+    margin-top: 5px;
+    padding-top: 16px;
+    font-size: 10px;
+    line-height: 16px;
+    margin-bottom: 16px;
+}
+
+footer{
+    text-align: center;
+    background-color: #1e1e1e;
+    color:#9e9e9e;
+    padding:20px;
+    font-size: 12px;
+}
